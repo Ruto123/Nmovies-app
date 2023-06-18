@@ -1,0 +1,86 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.title {
+  text-align: center;
+}
+
+.description {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.search-container {
+  text-align: center;
+  margin-top: 40px;
+}
+
+#searchInput {
+  padding: 10px;
+  width: 300px;
+}
+
+.btn {
+  padding: 10px 20px;
+  background-color: gold;
+  color: black;
+  border: none;
+  cursor: pointer;
+}
+
+#resultsContainer {
+  margin-top: 40px;
+}
+
+.movie-card {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.movie-poster {
+  width: 100px;
+  margin-right: 20px;
+}
+
+.movie-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.movie-details {
+  flex: 1;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.page-link {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  margin: 0 5px;
+}
+
+.page-link:hover {
+  background-color: #0056b3;
+}
